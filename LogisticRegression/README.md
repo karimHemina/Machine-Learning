@@ -1,5 +1,5 @@
 # Logistic Regression
-in logistic regression and in contrary to [[Linear Regression]] instead of trying  to get a specific value, we create probabilities. we do this by putting our value obtained from the equation $\hat{y} = wx + b$  into sigmoid function to get probability between 0 and 1.
+in logistic regression and in contrary to Linear Regression instead of trying  to get a specific value, we create probabilities. we do this by putting our value obtained from the equation $\hat{y} = wx + b$  into sigmoid function to get probability between 0 and 1.
 
 sigmoid function is calculated as follows $s(x) = \frac{1}{1 + e^{-x}}$ we can also write $\hat{y}=h_0(x)=\frac{1}{1 + e^{-(wx+b)}}$ 
 
